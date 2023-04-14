@@ -1,0 +1,108 @@
+.img{
+    display: flex;
+    width: 100%;
+    transition: 2s;
+}
+
+.img img{
+    width: 100%;
+}
+
+.wrapper{
+    width: 800px;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+#slide-1:target ~ .img{
+    margin-left: 0px;
+}
+#slide-2:target ~ .img{
+    margin-left: -100%;
+}
+#slide-3:target ~ .img{
+    margin-left: -200%;
+}
+
+.slide2 a{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(234, 233, 233);
+    font-size: 0px;
+    border-radius: 50%;
+    margin: 3px;
+    transition: 1s;
+}
+
+.slide2 a:hover{
+    background-color: #F58634;
+}
+
+.slide2 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.title-produk{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #F58634;
+}
+
+.produk{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.produk .gambar img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.gambar{
+    overflow: hidden;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(235, 235, 235);
+}
+
+h3{
+    font-size: 16px;
+    margin: 0px;
+}
+
+p{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.gambar a{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    background: #F58634;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all ease 0.3s;
+}
+
+.gambar a:hover{
+    background: #00AF91;
+    transition: all ease 0.3s;
+}

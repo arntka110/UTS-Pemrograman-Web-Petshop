@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma;
+}
+
+section{
+    margin-top: 20px;
+}
+
+.wrapper{
+    overflow: hidden;
+    max-width: auto;
+    width: auto;
+    background: white;
+    padding: 25px;
+}
+
+.wrapper .title{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #F58634;
+    padding-top: 12px;
+}
+
+.wrapper form .jumlah-produk{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+form .jumlah-produk .input-box{
+    margin-bottom: 20px;
+    width: calc(100%/2-20px);
+}
+
+form .input-box span .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.jumlah-produk .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+}
+
+.jumlah-produk .input-box select{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+}
+
+form .button{
+    padding-left: 30%;
+    display:block;
+    align-items: center;
+    height: 45px;
+}
+
+form .button{
+    padding: 0;
+    text-align: center;
+}
+
+form button{
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+    color: #FFFF;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #00AF91;
+}
+
+form button:hover{
+    background: #F58634;
+}

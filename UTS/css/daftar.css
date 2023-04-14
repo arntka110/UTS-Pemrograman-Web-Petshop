@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+
+section{
+    background-image: url(../image/Icon-Web-4.jpg);
+    background-position: center;
+    background-size: 100%;
+    margin: 0px;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    padding-left: 280px;
+}
+
+.wrapper{
+    overflow: hidden;
+    max-width: 700px;
+    width: 100%;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 20px rgb(172, 171, 171);
+}
+
+.wrapper .title{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #F58634;
+    padding-top: 12px;
+}
+
+.wrapper form .data-user{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+form .data-user .input-box{
+    margin-bottom: 20px;
+    width: calc(100%/2-20px);
+}
+
+form .input-box span .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.data-user .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+}
+
+.select{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+form .button{
+    padding-left: 30%;
+    display:block;
+    align-items: center;
+    height: 45px;
+    margin: 70px 0px 0px 0px;
+}
+
+form .button{
+    padding: 0;
+    text-align: center;
+}
+
+form .button input{
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+    color: #FFFF;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #00AF91;
+}
+
+form .button input:hover{
+    background: #F58634;
+}
+
+.loginuser{
+    text-align: center;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.loginuser a{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    color: #F58634;
+}
+
+.loginuser a:hover{
+    text-decoration: underline;
+    color: #00AF91;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}

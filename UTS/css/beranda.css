@@ -1,0 +1,90 @@
+.background{
+    position: relative;
+}
+
+.konten{
+    top: 13%;
+    left: 5%;
+    position: absolute;
+}
+
+.pr{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: "Nunito Sans",Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    opacity: 80%;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.button{
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.button a{
+    text-align: center;
+    text-decoration: none;
+    background-color: #00AF91;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px 13px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button a:hover{
+    text-align: center;
+    background-color: #F58634;
+    font-size: 23px;
+    transition: 0.4s;
+}
+
+section{
+    display: flex;
+    margin-bottom: 50px;
+    padding: 0px 45px 0px 50px;
+}
+
+.kolom{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.kolom h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-left: 17px;
+}
+
+.kolom p{
+    padding-bottom: 10px;
+    font-family: "Nunito Sans",Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.foto{
+    margin-top: 100px;
+    padding: 10px 60px 20px 80px;
+}
+
+.kolom h3{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 11px;
+}
+
+.kolom .ikon{
+    width: 18px;
+    padding-right: 8px;
+}

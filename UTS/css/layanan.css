@@ -1,0 +1,28 @@
+section{
+    display: flex;
+    margin-bottom: 50px;
+    padding: 0px 45px 0px 50px;
+}
+
+.kolom{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+#drhewan{
+    padding-bottom: 20px;
+    padding-top: 45px;
+    padding-left: 20px;
+}
+
+.kolom h1{
+    font-size: 35px;
+    color: #F58634;
+    padding-bottom: 20px;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+.kolom p{
+    padding-left: 20px;
+}

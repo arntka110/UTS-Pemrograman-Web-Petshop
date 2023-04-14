@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma;
+}
+
+section{
+    background-color: #EDE4E0;
+    margin: 0px;
+}
+
+.wrapper{
+    overflow: hidden;
+    max-width: auto;
+    width: auto;
+    background: white;
+    padding: 25px;
+}
+
+.wrapper .title{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #F58634;
+    padding-top: 12px;
+}
+
+.wrapper form .data-produk{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+form .data-produk .input-box{
+    margin-bottom: 20px;
+    width: calc(100%/2-20px);
+}
+
+form .input-box span .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.data-produk .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+}
+
+form #tabel {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+form #tabel td, #tabel th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+form #tabel tr:nth-child(even){background-color: #f2f2f2;}
+
+form #tabel tr:hover {background-color: #ddd;}
+
+form #tabel th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #F58634;
+    color: white;
+}
+
+form .button{
+    padding-left: 30%;
+    display:block;
+    align-items: center;
+    height: 35px;
+}
+
+form .button{
+    padding: 0;
+    text-align: center;
+}
+
+form .btn-tambah{
+    height: 35px;
+    width: 110px;
+    font-size: 14px;
+}
+
+form button{
+    height: 25px;
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    color: #FFFF;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #F58634;
+}
+
+form .btn-tambah:hover{
+    background: #00AF91;
+}
+
+form .btn-hapus {
+    background-color: #F58634;;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+form .btn-hapus:hover{
+    background: #ee0101;
+}
+
+form .btn-edit {
+    background-color: #F58634;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form .btn-edit:hover{
+    background: #008be1;
+}
